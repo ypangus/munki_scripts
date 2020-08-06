@@ -1,0 +1,6 @@
+#Replace the CAPITAL word into your own input
+
+makepkginfo --nopkg --name=PKGNAME \
+  --pkgvers=VERSION --installcheck_script=PATH_TO_INSTALLCHECK_SCRIPT \
+  --postinstall_script=PATH_TO_POSTINSTALL_SCRIPT \
+  --unattended_install > NAME.pkginfo
