@@ -1,0 +1,6 @@
+#Change the NAME into the name of your nokpg script.
+
+makepkginfo --nopkg --name=NAME \
+  --pkgvers=1.0 --installcheck_script=install_check_script.sh \
+  --postinstall_script=post_install_script.sh \
+  --unattended_install > NAME.pkginfo
