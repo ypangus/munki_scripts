@@ -1,0 +1,4 @@
+makepkginfo --nopkg --name=release_osupdate \
+  --pkgvers=1.0 --installcheck_script=install_check_script.sh \
+  --postinstall_script=post_install_script.sh \
+  --unattended_install > release_osupdate.pkginfo
